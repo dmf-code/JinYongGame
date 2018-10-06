@@ -1,0 +1,271 @@
+
+/*关闭滚动条，只适应webkit内核*/
+/*::-webkit-scrollbar{width:0px}*/
+#animation_bg{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image: url(zhandou.jpg);
+    background-size: 100% 100%;
+    z-index: 80;
+}
+#animation_role{
+    position: absolute;
+    bottom: 0;
+    right:10%;
+    width:30%;
+    height:20%;
+    background-image: url(sucai/xuetiao_2.png);
+    background-size: 100% 100%;
+}
+
+#animation_monstor{
+    position: absolute;
+    top: 0;
+    left:10%;
+    width:30%;
+    height:20%;
+    background-image: url(sucai/xuetiao_1.png);
+    background-size: 100% 100%;
+}
+#anima_monstor{
+    position: absolute;
+    top: 2%;
+    left:10%;
+    width:12%;
+    height:14%;
+    background-image: url(sucai/role_6.png);
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+#monstor_xuetiao{
+    position: absolute;
+    top:5%;
+    left:20.1%;
+    width:16%;
+    height:5%;
+    border-radius: 2%;
+    background-image: url(sucai/blood.png);
+    background-size: 100% 100%;
+    opacity:0.8;
+}
+
+#role_xuetiao{
+    position: absolute;
+    bottom:10%;
+    right:20%;
+    width:16%;
+    height:5%;
+    border-radius: 2%;
+    background-image: url(sucai/blood.png);
+    background-size: 100% 100%;
+    opacity:0.8;
+}
+
+#zhandou{
+    position: absolute;
+    top:18%;
+    left:20%;
+    width:60%;
+    height:50%;
+    border-radius: 2%;
+    background-color: red;
+    opacity:0.8;
+}
+
+#zhandou_1{
+    position:absolute;
+    top:18%;
+    left:0%;
+    width:20%;
+    height:60%;
+    background-image: url(sucai/role_6_0.png);
+    background-color: blue;
+    background-size: 100% 100%;
+}
+#zhandou_2{
+    position:absolute;
+    top:0%;
+    left:21%;
+    width:58%;
+    height:100%;
+    background-color: blue;
+     overflow: auto;
+}
+#zhandou_3{
+    position:absolute;
+    top:18%;
+    left:80%;
+    width:20%;
+    height:60%;
+    background-image: url(sucai/role_0_0.png);
+    background-color: blue;
+    background-size: 100% 100%;
+}
+
+#anima_btn_1{
+    position:absolute;
+    top:75%;
+    left:25%;
+    width:10%;
+    height:5%;
+    outline: none;
+    background-size:100% 100%;
+    opacity: 1.0;
+}
+#anima_btn_2{
+    position:absolute;
+    top:75%;
+    left:45%;
+    width:10%;
+    height:5%;
+    outline: none;
+    background-size:100% 100%;
+    opacity: 1.0;
+}
+#anima_btn_3{
+    position:absolute;
+    top:75%;
+    left:65%;
+    width:10%;
+    height:5%;
+    outline: none;
+    background-size:100% 100%;
+    opacity: 1.0;
+}
+
+#winGame{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-image: url(../images/bg/WinBg.jpg);
+    background-size: 100% 100%;
+    z-index:2;
+}
+#winGame1{
+    position: absolute;
+    top:10%;
+    left:30%;
+    width: 40%;
+    height:30%;
+    background-image: url(sucai/winZhandou.png);
+    background-size: 100% 100%;
+}
+#winGame2{
+    position: absolute;
+    top:46%;
+    left:26%;
+    font-size: 5em;
+    font-weight: bold;
+}
+#winGame input{
+    position: absolute;
+    top:70%;
+    left:37%;
+    width: 25%;
+    height:10%;
+    border-radius: 5px;
+}
+
+
+#cartoon_1{
+    position: absolute;
+    top:25%;
+    left:18%;
+    width:20%;
+    height:20%;
+    background-size: 100% 100%;
+    
+}
+#cartoon_2{
+    position: absolute;
+    top:25%;
+    left:62%;
+    width:20%;
+    height:20%;
+    background-size: 100% 100%;
+}
+.cartoon_1{
+    animation:ani_1 1.5s;
+}
+.cartoon_2{
+    animation:ani_2 1.5s;
+}
+.cartoon_3{
+    animation:ani_3 1.5s;
+}
+.cartoon_4{
+    animation:ani_4 1.5s;
+}
+
+/*黄色火焰*/
+@keyframes ani_1
+{
+    0% {background-image: url(jn1/1.png);}
+    5% {background-image: url(jn1/2.png);}
+    10% {background-image: url(jn1/3.png);}
+    15% {background-image: url(jn1/4.png);}
+    20% {background-image: url(jn1/5.png);}
+    25% {background-image: url(jn1/6.png);}
+    30% {background-image: url(jn1/7.png);}
+    35% {background-image: url(jn1/8.png);}
+    40% {background-image: url(jn1/9.png);}
+    45% {background-image: url(jn1/10.png);}
+    50% {background-image: url(jn1/11.png);}
+    55% {background-image: url(jn1/12.png);}
+    60% {background-image: url(jn1/13.png);}
+    65% {background-image: url(jn1/14.png);}
+    70% {background-image: url(jn1/15.png);}
+    75% {background-image: url(jn1/16.png);}
+    80% {background-image: url(jn1/17.png);}
+    85% {background-image: url(jn1/18.png);}
+    90% {background-image: url(jn1/19.png);}
+    100% {background-image: url(jn1/20.png);}
+}
+/*蓝色火焰爆炸*/
+@keyframes ani_2{
+    0% {background-image: url(jn2/1.png);}
+   10% {background-image: url(jn2/2.png);}
+   20% {background-image: url(jn2/3.png);}
+   30% {background-image: url(jn2/4.png);}
+   40% {background-image: url(jn2/5.png);}
+   50% {background-image: url(jn2/6.png);}
+   60% {background-image: url(jn2/7.png);}
+   70% {background-image: url(jn2/8.png);}
+   80% {background-image: url(jn2/9.png);}
+   90% {background-image: url(jn2/10.png);}
+   95% {background-image: url(jn2/11.png);}
+   100% {background-image: url(jn2/12.png);}
+}
+/*骷颅头*/
+@keyframes ani_3{
+    0% {background-image: url(jn3/1.png);}
+   10% {background-image: url(jn3/2.png);}
+   20% {background-image: url(jn3/3.png);}
+   30% {background-image: url(jn3/4.png);}
+   40% {background-image: url(jn3/5.png);}
+   50% {background-image: url(jn3/6.png);}
+   60% {background-image: url(jn3/7.png);}
+   70% {background-image: url(jn3/8.png);}
+   80% {background-image: url(jn3/9.png);}
+   90% {background-image: url(jn3/10.png);}
+   100% {background-image: url(jn3/11.png);}
+}
+
+/*红色火焰*/
+@keyframes ani_4{
+    0% {background-image: url(jn4/1.png);}
+   20% {background-image: url(jn4/2.png);}
+   40% {background-image: url(jn4/3.png);}
+   60% {background-image: url(jn4/4.png);}
+   80% {background-image: url(jn4/5.png);}
+   90% {background-image: url(jn4/6.png);}
+   100% {background-image: url(jn4/7.png);}
+}

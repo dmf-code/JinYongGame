@@ -1,0 +1,263 @@
+html,body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+input{
+    outline: none;
+}
+/*start css*/
+#start {
+    position: absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    background-image: url(../images/bg/start1.jpg);
+    background-size:100% 100%;
+    z-index:100;
+}
+#start_btn1{
+    position: absolute;
+    top:40%;
+    left:40%;
+    height:10%;
+    width:20%;
+    background-size:100% 100%;
+}
+#start_btn2{
+    position: absolute;
+    top:55%;
+    left:40%;
+    height:10%;
+    width:20%;
+    background-size:100% 100%;
+}
+#start_btn3{
+    position: absolute;
+    top:70%;
+    left:40%;
+    height:10%;
+    width:20%;
+    background-size:100% 100%;
+}
+#start_youxijieshao{
+    position: absolute;
+    display: none;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-image: url(../images/bg/youxijieshao.jpg);
+    background-size: 100% 100%;
+    z-index: 110;
+}
+#start_youxijieshao_btn{
+    position: absolute;
+    bottom: 0px;
+    right:10%;
+    width:15%;
+    height:10%;
+    background-size: 100% 100%;
+}
+#start_youxishengming{
+    position: absolute;
+    display: none;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-image: url(../images/bg/youxishengming.jpg);
+    background-size: 100% 100%;
+    z-index: 110;
+}
+#start_youxishengming_btn{
+    position: absolute;
+    bottom: 0px;
+    right:10%;
+    width:15%;
+    height:10%;
+    background-size: 100% 100%;
+}
+/*start css*/
+#main{
+    height:100%;
+    width:100%;
+    background-image: url(../images/bg/mainbg1.jpg);
+    background-size: 100% 100%;
+    z-index: 50;
+}
+.mainIcon{
+     width:8%;
+    height:15%;
+    position: absolute;
+}
+#mainIcon_1{
+    top:22%;
+    left:10%;
+}
+#mainIcon_2{
+    top:15%;
+    left:47%;
+}
+#mainIcon_3{
+    top:24%;
+    left:60%;
+}
+#mainIcon_4{
+    top:5%;
+    left:85%;
+}
+#mainIcon_5{
+    top:55%;
+    left:35%;
+}
+#mainIcon_6{
+    top:9%;
+    left:65%;
+}
+#mainIcon_7{
+    top:56%;
+    left:56%;
+}
+#mainIcon_8{
+    top:38%;
+    left:78%;
+}
+#mainIcon_9{
+    top:76%;
+    left:42%;
+}
+#mainIcon_10{
+    top:68%;
+    left:75%;
+}
+#mainIcon_11{
+    top:50%;
+    left:92%;
+}
+#mainIcon_12{
+    top:75%;
+    left:15%;
+}
+
+#end{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-image: url(../images/bg/end.jpg);
+    background-size: 100% 100%;
+    z-index: 100;
+}
+#end input{
+    position: absolute;
+    bottom: 0px;
+    right:5%;
+    width:20%;
+    height:10%;
+}
+/*弹出层的css*/
+#xitong{
+    display: none;
+    width:100%;
+    height:100%;
+    background-image: url(../images/bg/xitong.jpg);
+    background-size:100% 100%;
+    z-index:50;
+}
+#xitong_close{
+    position: absolute;
+    right:5%;
+    bottom:5%;
+    width:30%;
+    height:10%;
+    background-size: 100% 100%;
+}
+#inputText{
+    position: absolute;
+    display: none;
+    width:100px;
+    height:75px;
+    line-height: 75px;
+    color:#fff;
+    border-radius: 5%;
+    text-align: center;
+    opacity:0.5;
+    z-index: 55;
+    font-weight: bold;
+    background-color: #3D3D3D;
+}
+/*主页面的css*/
+#mainFrame{
+    display: none;
+    width:100%;
+    height:100%;
+    background-size: 100% 100%;
+}
+.mainFrame{
+    width:100%;
+    height:100%;
+    background-size: 100% 100%;
+}
+.mainFrame_btn{
+    margin-left: 2%;
+    margin-top: 15%;
+    border-style: none;
+    background-size: 100% 100%;
+}
+
+/*顶部的实现css*/
+
+#Top_msg{
+    position: absolute;
+    width:100%;
+    height:5%;
+    top:0px;
+    background-image: url(../images/border/mainUp.png);
+    background-size: 100% 100%;
+}
+#Top_zhujiao{
+    position: absolute;
+    width:20%;
+    height:20%;
+    left:0px;
+    top:0px;
+    background-size: 100% 100%;
+}
+#Top_msg_local{
+    position: absolute;
+    top:22%;
+    left:25%;
+    font-size: 1em;
+    font-weight: bold;
+    color:#FFD700;
+}
+#Top_msg_time{
+    position: absolute;
+    top:22%;
+    left:45%;
+    font-size: 1em;
+    font-weight: bold;
+    color:#FFD700;
+}
+#Top_msg_money1{
+    position: absolute;
+    top:22%;
+    left:75%;
+    font-size: 1em;
+    font-weight: bold;
+    color:#FFD700;
+}
+#Top_msg_money2{
+    position: absolute;
+    top:22%;
+    left:95%;
+    font-size: 1em;
+    font-weight: bold;
+    color:#FFD700;
+}

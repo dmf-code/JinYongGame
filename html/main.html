@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/page.css">
+        <link rel="stylesheet" type="text/css" href="../animation/animation.css">
+    <!--插件start-->
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <!--插件end-->
+        <script src="../js/jquery-3.1.1.min.js"></script>
+        <script src="../js/url.js"></script>
+        <script src="../js/event.js"></script>
+        <script src="../animation/animation.js"></script>
+    </head>
+    <body>
+        <!--音乐层-->
+        <!--弹出层的画面集合-->
+        <!--遮蔽层-->
+        <div id="cover"></div><!--功能按钮的遮蔽层-->
+        <div id="cover2"></div><!--主角信息按钮的遮蔽层-->
+        <div id="cover3"></div><!--物品装备按钮的遮蔽层-->
+        <div id="cover4"></div><!--物品购买的遮蔽层-->
+        <div id="cover5"></div><!--只有对话的遮蔽层-->
+        <div id="cover6"></div><!--对话完之后出来选择功能的遮蔽层(战斗)-->
+        <div id="cover7"></div><!--花钱买技能的结果界面显示-->
+        <div id="xitong"></div>
+        <div id="inputText"></div>
+        <!--弹出层的画面集合end-->
+
+        <!--顶部信息栏-->
+        <div id="Top">
+            <div id="local"></div>
+            <div id="Time"></div>
+            <div id="money1"></div>
+            <div id="money2"></div>
+        </div>
+        <!--顶部信息栏end-->
+
+        <!--游戏帧画面-->
+        <div id="mainFrame"></div>
+        <!--游戏帧画面end-->
+
+        <!--游戏页面框架-->
+        <div id="start">
+            <!--插件start-->
+                    <div class="htmleaf-container">
+                    <div class="profile-card-wrap">
+                        <input id="check" type="checkbox" class="check"><label for="check" class="toggle"> + </label>
+                        <div class="content" data-text="游戏作者介绍">
+                            <div class="title">邓敏锋</div>
+                            <p>14数字媒体与游戏开发</p>
+                            <p>2014030403015</p>
+                        </div>
+                        <div class="link-info">
+                            <div class="photo"></div>
+                        </div>
+                    </div>
+                </div>
+            <!--插件end-->
+        </div>
+        <div id="main"></div>
+        <div id="end"><input type="image" src="../images/border/youxistart_close.png" onclick="reStart()" /></div>
+        <!--游戏页面框架end-->
+
+        <!--战斗场景&动画-->
+        <div id="animation_bg">
+            <!--血条-->
+            <div id="role_xuetiao"></div>
+            <div id="monstor_xuetiao"></div>
+            <!--人物头像-->
+            <div id="animation_role"></div>
+            <div id="animation_monstor"></div>
+            <div id="anima_monstor"></div>
+            <!--战斗对话框-->
+            <div id="zhandou">
+                <div id="zhandou_1"></div>
+                <div id="zhandou_2"></div>
+                <div id="zhandou_3"></div>
+            </div>
+            <!--游戏特效-->
+            <div id="cartoon_1"></div>
+            <div id="cartoon_2"></div>
+            <!--战斗按钮-->
+            <input type="image" id="anima_btn_1" src="../animation/sucai/btn_1.png" onclick="openCartoon_1()">
+            <input type="image" id="anima_btn_2" src="../animation/sucai/btn_2.png" onclick="openCartoon_3()">
+            <input type="image" id="anima_btn_3" src="../animation/sucai/btn_3.png" onclick="openCartoon_5()">
+            <!--胜利界面-->
+            <div id="winGame">
+                <div id="winGame1"></div>
+                <div id="winGame2"></div>
+                <input type="image" src="../animation/sucai/jiesuzhandou.png" onclick="closeAnimationFrame()" />
+            </div>
+        </div>
+        <!--战斗场景&动画-->
+
+    </body>
+    <script src="../js/people.js"></script>
+    <script src="../js/dom.js"></script>
+    <script src="../js/audio.js"></script>
+    <script src="../js/page.js"></script>
+    <script src="../js/button.js"></script>
+    <script src="../js/main.js"></script>
+</html>
